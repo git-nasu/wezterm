@@ -3,6 +3,9 @@ local config = wezterm.config_builder()
 local act = wezterm.action
 local mux = wezterm.mux
 
+-- tmux settings
+config.default_prog = { "zsh", "-l", "-c", "tmux a -t default || tmux new -s default" }
+
 config.initial_cols = 180
 config.initial_rows = 60
 
@@ -35,7 +38,7 @@ config.window_background_gradient = {
 -- Tab Bar settings
 config.show_new_tab_button_in_tab_bar = false
 config.tab_bar_at_bottom = true
-config.tab_max_width = 10
+config.tab_max_width = 16
 config.show_close_tab_button_in_tabs = false
 
 -- Window Frame settings
