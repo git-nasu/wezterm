@@ -6,6 +6,9 @@ local mux = wezterm.mux
 config.initial_cols = 180
 config.initial_rows = 60
 
+-- tab inactive
+config.enable_tab_bar = false
+
 -- color settings
 local purple = "#9c7af2"
 local blue = "#6EADD8"
