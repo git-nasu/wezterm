@@ -26,6 +26,8 @@ config.color_scheme = "Tokyo Night"
 -- Font settings
 config.font = wezterm.font("JetBrains Mono", { weight = "Bold" })
 config.font_size = 13
+-- Do not change thw Windows size when changing the font
+config.adjust_window_size_when_changing_font_size = false
 
 -- Window settings
 config.window_decorations = "RESIZE"
