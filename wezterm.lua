@@ -3,9 +3,6 @@ local config = wezterm.config_builder()
 local act = wezterm.action
 local mux = wezterm.mux
 
--- tmux settings
-config.default_prog = { "zsh", "-l", "-c", "tmux a -t default || tmux new -s default" }
-
 config.initial_cols = 180
 config.initial_rows = 60
 
