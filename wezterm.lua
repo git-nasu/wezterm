@@ -3,7 +3,7 @@ local config = wezterm.config_builder()
 local act = wezterm.action
 local mux = wezterm.mux
 
-config.initial_cols = 170
+config.initial_cols = 180
 config.initial_rows = 55
 
 -- tab inactive
